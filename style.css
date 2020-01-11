@@ -2,20 +2,66 @@
     box-sizing: 
     border-box;
 }
-.madlibResult {
+
+.welcome {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 500px;
+}
+.header {
     width: 500px;
     height: 350px;
     border: solid black 2px;
     border-radius: 25px;
-    background-color: red;
+    background-color:green;
+    padding: 10px;
+    margin: auto;
+
 }
 
-.p {
-    
+.instText {
     font-color: teal;
+    text-align: left;
+    margin: auto;
 }
 body {
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
-    background-color: lightcyan;
+    background-color:darkslategrey;
 }
+.square {
+    box-sizing: border-box;
+    height:120px;
+    width: 650px;
+    border-radius: 10px;
+    border: dotted lightcoral 5px;
+    background-color: yellow;
+    margin: auto;
+    color: darkgoldenrod;
+    padding: 10px;
+    /* transition: all 3s;
+    cursor: pointer; */
+}
+
+.square2 {
+    box-sizing: border-box;
+    height:600px;
+    width:200px;
+    border-radius: 10px;
+    background-color:lightskyblue;
+    margin: auto;
+    color: darkgoldenrod;
+    padding: 10px;
+    /* transition: all 3s;
+    cursor: pointer; */
+}
+
+#submitButton {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }

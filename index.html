@@ -5,24 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>MadLib Game!</title>
-    <title>Document</title>
     <link rel="stylesheet" href="style.css">
     </head>
 <body>
     
-    <header>
-        <div id="title">Welcome to the Jungle</div>
-        <img src="https://images.pexels.com/photos/904807/pexels-photo-904807.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"> 
+    <header class="header" id ="header"> 
+        <h1 id="welcome"> Welcome to the Jungle<br>...::[Mad Lib Game]::...</h1>
+        <img src="https://images.pexels.com/photos/904807/pexels-photo-904807.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"  alt="jungle photo" width="400" height="200"></p>
     </header>
-    
+    <br><br>
 </body>
-<article class="instructions">
-  <h2>Instructions</h2>
-  <p>Fill in the blanks with the indicated types of words and let the hilarity ensue!  Be creative with your words.  The <strong>bizzare</strong> and <strong>unordinary</strong> are <em>essential</em> to ensure you have a fun and successful story.</p>
+<article class="square" id="instructions"><strong>Instructions:</strong>
+  <p class ="instText">Fill in the blanks with the indicated types of words and let the hilarity ensue!  Be creative with your words.  The <strong>bizzare</strong> and <strong>unique</strong> are <em>essential</em> to ensure you have a fun and successful story.</p>
 </article>
 <article id="userInput">
     <p>Your Words:</p>
     <label id="adj1"></label> 
+
+<article class="square2" id="userInput"> 
+    Enter the following
+    <br><br><button class="submitButton" id="submitButton">DO IT!</button>
+
+</article>
 <!-- 
 adj 1
 adj2
@@ -47,7 +51,7 @@ adj7 -->
 
 
 <div id="madlib-result">
-    <p>
+    <p class ="instText">
         I walk through the color jungle. I take out my <span id = "adj1"></span> canteen. There's a
         <span id = "adj2"></span> parrot with a <span id = "adj3"></span><span id = "noun1"></span> in his mouth right in front of me in the <span id = "adj4"></span> trees! I gaze at his <span id = "adj5"></span><span id = "noun2"></span>. A sudden sound awakes me from my daydream! A panther "s" <span id="verb1"></span> in front of my head! I <span id = "verb2"></span> his <span id = "adj6"></span>breath. I remember I have a packet of <span id = "noun3"></span>that makes go into a deep slumber! I <span id="verb3"></span> it away in front of the <span id = "noun4"></span>.Yes he's eating it! I <span id="verb4"></span> away through the <span id = "adj7"></span> jungle. I meet my parents at the tent. Phew; It’s been an exciting day in the jungle. 
     </p>
